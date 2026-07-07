@@ -36,12 +36,18 @@ and reproducible.
 | 06 | Date-range overlap check | Edge cases | Edge cases, correctness |
 | 07 | Append to an optional list (**Python**) | Language idiom | Correctness, edge cases, idiomatic style |
 | 08 | Read a `key=value` config file (**Go**) | Error handling | Security & robustness, edge cases, instruction-following |
+| 09 | Compare a client-supplied API token | Security / **override** | Security override beats surface elegance (winner: B) |
+| 10 | Title-case the words in a string | Idiom / **close call** | Tie-handling, edge cases (verdict: tie) |
 
 ## A note on method
 
-Every score and rationale reflects my own judgement. The candidate answers were produced
-as evaluation *stimuli* (one deliberately stronger, one with a planted flaw) so the rubric
-has something to bite on; the *evaluations themselves* are the work.
+Every score and rationale reflects my own judgement. Most candidate pairs were produced as
+evaluation *stimuli* (one deliberately stronger, one with a planted flaw) so the rubric has
+something to bite on; the *evaluations themselves* are the work. Not every pair is lopsided,
+by design: **09** is a case where the more elegant answer loses on a security override (so the
+override rule earns its place, rather than just agreeing with the higher total), and **10** is
+two genuinely competent answers that resolve to a tie — the harder, more realistic judgement
+call.
 
 ## Stack-agnostic
 
