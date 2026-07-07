@@ -34,6 +34,8 @@ and reproducible.
 | 04 | Implement `debounce` | Concurrency / real-time | Correctness, idiomatic style |
 | 05 | `fetchWithRetry` + backoff | Robustness | Security & robustness, correctness |
 | 06 | Date-range overlap check | Edge cases | Edge cases, correctness |
+| 07 | Append to an optional list (**Python**) | Language idiom | Correctness, edge cases, idiomatic style |
+| 08 | Read a `key=value` config file (**Go**) | Error handling | Security & robustness, edge cases, instruction-following |
 
 ## A note on method
 
@@ -43,8 +45,9 @@ has something to bite on; the *evaluations themselves* are the work.
 
 ## Stack-agnostic
 
-Examples are in JavaScript/TypeScript and Node for concreteness, but the rubric is language-
-neutral and can be applied to Python, Go, etc. without change.
+Most examples are in JavaScript/TypeScript and Node, with one **Python** (07) and one **Go**
+(08) evaluation applying the same six axes unchanged — evidence that the rubric is language-
+neutral, not just claimed to be. It transfers to any language without modification.
 
 ## Author
 
