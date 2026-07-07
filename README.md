@@ -45,3 +45,9 @@ has something to bite on; the *evaluations themselves* are the work.
 
 Examples are in JavaScript/TypeScript and Node for concreteness, but the rubric is language-
 neutral and can be applied to Python, Go, etc. without change.
+
+## Author
+
+**Abdullah Oyewale** — GitHub [@pendevster](https://github.com/pendevster).
+Production software engineer (React / Next.js / Node.js), MSc in Cyber Security.
+The rubric, scores, and rationale here are my own work. Feedback and issues welcome.
