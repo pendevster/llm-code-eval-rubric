@@ -39,15 +39,19 @@ and reproducible.
 | 09 | Compare a client-supplied API token | Security / **override** | Security override beats surface elegance (winner: B) |
 | 10 | Title-case the words in a string | Idiom / **close call** | Tie-handling, edge cases (verdict: tie) |
 
-## A note on method
+## Method: the pairs are built to test the rubric
 
-Every score and rationale reflects my own judgement. Most candidate pairs were produced as
-evaluation *stimuli* (one deliberately stronger, one with a planted flaw) so the rubric has
-something to bite on; the *evaluations themselves* are the work. Not every pair is lopsided,
-by design: **09** is a case where the more elegant answer loses on a security override (so the
-override rule earns its place, rather than just agreeing with the higher total), and **10** is
-two genuinely competent answers that resolve to a tie — the harder, more realistic judgement
-call.
+Every score and rationale reflects my own judgement. Most candidate pairs are **constructed
+rather than collected** — one answer deliberately stronger, one carrying a planted flaw of a
+known class. That is the method, not a shortcut. A rubric is only worth something if it catches
+what it claims to catch, and the way to find that out is to hand it a fault planted on purpose
+and check whether it bites — and whether it bites for the stated reason rather than by accident.
+
+So both halves are the work: writing a flaw that a weak rubric would wave through, and then
+adjudicating it. Not every pair is lopsided, by design: **09** is a case where the more elegant
+answer loses on a security override (so the override rule earns its place, rather than just
+agreeing with the higher total), and **10** is two genuinely competent answers that resolve to a
+tie — the harder, more realistic judgement call.
 
 ## Stack-agnostic
 
